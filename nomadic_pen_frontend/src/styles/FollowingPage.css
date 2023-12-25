@@ -1,0 +1,90 @@
+/* FollowingPage.css by Jamini Bhatt */
+
+body{
+  overflow-x: hidden !important;
+  background-image: url('../Images/slide1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.following-page {
+  max-width: 100%;
+  margin: 0 auto;
+  
+}
+
+.author-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.author-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+  width: 100% !important;
+  height: 200px;
+  /* border-radius: 80%; */
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.actions button {
+  margin: 0 10px;
+}
+
+.moretext {
+  color: blueviolet;
+}
+
+
+@media (max-width: 600px) {
+  .author-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.grow {
+  animation: grow 1s ease normal;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.icon {
+  color: blueviolet;
+  font-size: 30px;
+}
+
+.content img {
+  width: 500px;
+}
+
+
+.travel-article {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}

@@ -1,0 +1,15 @@
+.pieChart{
+    height: 400px !important;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barCharts{
+    height: 400px !important;
+    max-width: 600px;
+}
+
+.TableHeader{
+    font-weight: bold;
+}

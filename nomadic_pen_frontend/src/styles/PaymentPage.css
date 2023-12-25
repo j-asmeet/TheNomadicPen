@@ -1,0 +1,180 @@
+.payment-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 100px;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .enter-details {
+    text-align: center;
+  }
+  
+  .payment-form {
+    width: 400px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .payment-form label {
+    display: block;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .payment-form input[type="text"],
+  .payment-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .payment-form input[type="number"]::-webkit-inner-spin-button,
+  .payment-form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .payment-form input[type="number"][inputmode="numeric"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  .payment-form input[type="number"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #007bff;
+  }
+  
+  .payment-form input[name="cardnumber"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  .payment-form input[name="cardnumber"]::-webkit-outer-spin-button,
+  .payment-form input[name="cardnumber"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .payment-form input[name="cardnumber"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #007bff;
+  }
+  
+  .payment-form input[name="expirydate"] {
+    text-align: center;
+  }
+  
+  .payment-form input[name="cvv"] {
+    text-align: center;
+  }
+  
+  .payment-form input[name="nameoncard"] {
+    text-transform: uppercase;
+  }
+  
+  .payment-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .payment-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .enter-details {
+    text-align: center;
+  }
+  
+  .payment-form {
+    width: 400px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .payment-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .payment-form input[type="text"],
+  .payment-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .payment-form input[type="number"]::-webkit-inner-spin-button,
+  .payment-form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .payment-form input[type="number"][inputmode="numeric"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  .payment-form input[type="number"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #007bff;
+  }
+  
+  .payment-form input[name="cardnumber"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  .payment-form input[name="cardnumber"]::-webkit-outer-spin-button,
+  .payment-form input[name="cardnumber"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .payment-form input[name="cardnumber"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #007bff;
+  }
+  
+  .payment-form input[name="expirydate"] {
+    text-align: center;
+  }
+  
+  .payment-form input[name="cvv"] {
+    text-align: center;
+  }
+  
+  .payment-form input[name="nameoncard"] {
+    text-transform: uppercase;
+  }
+  
+  .payment-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .payment-form button:hover {
+    background-color: #0056b3;
+  }
+  

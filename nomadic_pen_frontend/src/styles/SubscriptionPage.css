@@ -1,0 +1,152 @@
+/* SubscriptionPage.css */
+
+.subscription-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .subscription-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subscription-form h1, .subheading {
+    text-align: center;
+    color: #333;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .subscription-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .subscription-form input[type="email"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .subscription-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .features {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .features-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features-list li {
+    padding: 5px 0;
+  }
+  
+  .subscription-success {
+    text-align: center;
+    padding: 20px;
+    background-color: #d4edda;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #155724;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Responsive styles */
+  
+  @media (max-width: 768px) {
+    .subscription-page {
+      padding: 10px;
+      height: auto;
+    }
+  
+    .subscription-form {
+      padding: 20px;
+    }
+  
+    .subscription-form h1 {
+      font-size: 24px;
+    }
+  
+    .subheading {
+      font-size: 18px;
+    }
+  
+    .description {
+      font-size: 14px;
+    }
+  
+    .subscription-form input[type="email"] {
+      padding: 5px;
+      font-size: 14px;
+    }
+  
+    .subscription-form button {
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+  
+    .features {
+      font-size: 16px;
+    }
+  
+    .features-list li {
+      display: flex;
+    }
+    
+    .features-list li strong {
+      font-weight: bold;
+      margin-right: 5px;
+    }
+    
+    .features-list li span {
+      font-weight: normal;
+    }
+  
+    .footer {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      padding: 20px;
+      background-color: #f4f4f4;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+  }
+  

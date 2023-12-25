@@ -1,0 +1,23 @@
+{
+  "name": "nomadic_pen_backend",
+  "version": "1.0.0",
+  "description": "Backend for The Nomadic Pen (in Node/Express)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.4",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.4"
+  }
+}

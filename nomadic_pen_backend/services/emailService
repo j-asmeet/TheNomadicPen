@@ -1,0 +1,28 @@
+/* By Jasmeet singh */
+const nodemailer = require('nodemailer');
+
+const sendEmail = async (toEmail, subject, htmlContent) => {
+  try {
+    const transporter = nodemailer.createTransport({
+      service: 'Gmail',
+      auth: {
+        user: 'thenomadicpen@gmail.com',
+        pass: 'aqiyiuyqjdgqgqvk',
+      },
+    });
+
+    const mailOptions = {
+      from: 'thenomadicpen@gmail.com', // Replace with your email address
+      to: toEmail,
+      subject,
+      html: htmlContent,
+    };
+
+    await transporter.sendMail(mailOptions);
+    console.log('Email sent successfully');
+  } catch (error) {
+    console.error('Error sending email:', error);
+  }
+};
+
+module.exports = sendEmail;

@@ -1,11 +1,12 @@
+# Project Proposal
 
-# Project (A3)
+This proposal has 3 pages - Landing, FAQs, and Contact Us. There is also a header with the branding logo and buttons for navigating to FAQs and Contact Us. Clicking on the branding icon redirects to the landing page.
 
-* *Date Created*: 26 July 2023
-* *Last Modification Date*: 26 July 2023
+* *Date Created*: 20 June 2023
+* *Last Modification Date*: 20 June 2023
 * *Git URL*: <https://git.cs.dal.ca/pbshah/csci-5709-grp-16>
-* *Netlify Deployment URL*: <https://the-nomadic-pen.netlify.app>
-* Backend URL (deployed on Render): <https://nomadic-pen.onrender.com>
+* *Netlify Deployment URL*: <https://proposal-travel-blog.netlify.app/>
+
 
 ## Authors
 
@@ -19,17 +20,15 @@
 
 ## Deployment
 
-We pushed the same code (as linked above the GitLab repository) to GitHub. Then, we connected that GitHub account to Netlify and Render, gave access to the project repository, and deployed it after configuring the build commands (yarn) and website name.
+We pushed the same code (as linked above the GitLab repository) to GitHub. Then, we connected that GitHub account to Netlify, gave access to the project repository, and deployed it after configuring the build commands (yarn) and website name.
 
 
 ## Built With
 
 * [React](https://react.dev/) - The front-end web framework used
 * [Material UI](https://mui.com/) - Styling library
-* [Yarn](https://yarnpkg.com/) - Dependency Management for frontend
-* [Node.js](https://nodejs.org/) - Backend Framework
-* [Express.js](https://expressjs.com/) - Framework used to simplify Node.js routes creation
-* [npm](https://www.npmjs.com/) - Dependency Management for backend
+* [Yarn](https://yarnpkg.com/) - Dependency Management
+
 
 ## Sources Used
 
